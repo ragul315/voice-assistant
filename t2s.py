@@ -9,3 +9,4 @@ def speek(text):
       
     engine.say(text)
     engine.runAndWait()
+    print(text)
