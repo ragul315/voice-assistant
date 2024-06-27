@@ -1,0 +1,294 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi there",
+                "How are you",
+                "Is anyone there?",
+                "Hey",
+                "Hola",
+                "Hello",
+                "Good day"
+            ],
+            "responses": [
+                "Hello, how can I assist you?",
+                "Hey! What can I help you with?",
+                "Hi there! How can I be of service?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Nice chatting to you, bye",
+                "Till next time"
+            ],
+            "responses": [
+                "Goodbye! Take care.",
+                "See you later! Have a great day.",
+                "Bye! Come back soon."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Awesome, thanks",
+                "Thanks for helping me"
+            ],
+            "responses": [
+                "You're welcome!",
+                "Glad I could assist!",
+                "No problem, happy to help!"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [],
+            "responses": [
+                "Sorry, I'm not sure I understand.",
+                "I'm not sure how to respond to that.",
+                "Could you please provide more information?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "who_are_you",
+            "patterns": [
+                "Who are you?",
+                "What's your name?",
+                "Are you a human?",
+                "Tell me about yourself"
+            ],
+            "responses": [
+                "I'm Nova, your virtual assistant for PC.",
+                "I am Nova, your PC voice assistant.",
+                "I'm Nova, your AI-powered assistant ready to help you with tasks on your PC."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "what_can_you_do",
+            "patterns": [
+                "What can you do?",
+                "What are your capabilities?",
+                "How can you assist me?",
+                "What tasks can you perform?"
+            ],
+            "responses": [
+                "I can perform a variety of tasks such as setting reminders, searching the web, managing your calendar, and much more. Just let me know what you need!",
+                "I'm capable of handling tasks like sending emails, playing music, providing weather updates, and more. Feel free to ask for assistance with anything!"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "tell_me_more",
+            "patterns": [
+                "Tell me more",
+                "I want to know more",
+                "Can you elaborate?",
+                "Give me more details"
+            ],
+            "responses": [
+                "Sure! What would you like to know more about?",
+                "Of course! What specific topic are you interested in?",
+                "Absolutely! Just let me know what you'd like more information on."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "joke",
+            "patterns": [
+                "Tell me a joke",
+                "Do you know any jokes?",
+                "Make me laugh"
+            ],
+            "responses": [
+                "Why don't scientists trust atoms? Because they make up everything!",
+                "I told my wife she was drawing her eyebrows too high. She looked surprised!",
+                "Why did the scarecrow win an award? Because he was outstanding in his field!"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "compliment",
+            "patterns": [
+                "You're doing great!",
+                "Good job!",
+                "Impressive!",
+                "You're amazing!",
+                "Well done!"
+            ],
+            "responses": [
+                "Thank you! I'm here to help.",
+                "Appreciate the kind words!",
+                "Thanks! I'm glad I could assist."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "confused",
+            "patterns": [
+                "I'm confused",
+                "I don't understand",
+                "That's unclear",
+                "Can you explain?"
+            ],
+            "responses": [
+                "No problem! Feel free to ask any questions, and I'll do my best to clarify.",
+                "Don't worry! I'm here to help. What specifically are you unsure about?",
+                "Let me know what's unclear, and I'll provide more information."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "random",
+            "patterns": [
+                "Tell me something random",
+                "Give me a random fact",
+                "I want to hear something interesting"
+            ],
+            "responses": [
+                "Did you know that a group of flamingos is called a flamboyance?",
+                "Bananas are berries, but strawberries aren't!",
+                "The shortest war in history was between Britain and Zanzibar on August 27, 1896. Zanzibar surrendered after 38 minutes!"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "gratitude",
+            "patterns": [
+                "I appreciate your help",
+                "Thank you so much",
+                "I'm grateful for your assistance",
+                "Thanks for being there",
+                "You're a lifesaver"
+            ],
+            "responses": [
+                "It's my pleasure to assist you!",
+                "You're very welcome!",
+                "I'm glad I could help. Don't hesitate to reach out if you need anything else!"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "encouragement",
+            "patterns": [
+                "You can do it!",
+                "Keep up the good work!",
+                "Don't give up!",
+                "Believe in yourself!",
+                "Stay positive!"
+            ],
+            "responses": [
+                "Thank you for the encouragement!",
+                "I'll do my best!",
+                "I appreciate the motivation!"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "motivation",
+            "patterns": [
+                "I need motivation",
+                "Give me a pep talk",
+                "Inspire me",
+                "I'm feeling down"
+            ],
+            "responses": [
+                "You're capable of achieving great things!",
+                "Every step you take is progress!",
+                "You have the power to overcome any challenge!"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "positive_affirmation",
+            "patterns": [
+                "I am capable",
+                "I am strong",
+                "I am worthy",
+                "I am enough",
+                "I am confident"
+            ],
+            "responses": [
+                "You are capable of anything you set your mind to!",
+                "You have inner strength that will guide you through any situation!",
+                "Remember, you are worthy and deserving of all good things!"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "love_expression",
+            "patterns": [
+                "I love you",
+                "You mean everything to me",
+                "You're my everything",
+                "You're the best",
+                "I can't live without you"
+            ],
+            "responses": [
+                "Thank you for your kind words, but I'm just a computer program here to assist you.",
+                "I appreciate your sentiment, but I'm here to help with tasks.",
+                "It's great to hear that you value my assistance, but let's focus on the task at hand."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "death_expression",
+            "patterns": [
+                "I am going to die",
+                "I want to end my life",
+                "I want to die",
+                "I'm suicidal",
+                "Life is not worth living"
+            ],
+            "responses": [
+                "I'm here to help you, but if you're in crisis or need immediate assistance, please reach out to a trusted friend, family member, or mental health professional. You can also contact a crisis hotline or emergency services for support."
+            ],
+            "context": [
+                ""
+            ]
+        }
+    ]
+}

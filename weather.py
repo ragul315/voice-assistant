@@ -1,8 +1,11 @@
 import requests
-
+from t2s import speek
 api_key = '001f26759dc53ba48cd55e7b5d4160a5'
 
 def get_weather(location=None):
+    print("Location:", location)  # Add this line to print out the captured location
+    # Rest of the function...
+
     if not location:
         # Get latitude and longitude of the current location
         location_response = requests.get("http://ip-api.com/json/")
